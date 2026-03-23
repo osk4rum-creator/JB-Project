@@ -1,0 +1,8 @@
+[
+    {
+        "name": "web-server-01",
+        "os": "Ubuntu",
+        "cpu": "2vCPU",
+        "ram": "4GB"
+    }
+]
