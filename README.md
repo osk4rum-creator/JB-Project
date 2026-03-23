@@ -4,19 +4,19 @@
 
 \## Project Overview
 
-A modular Python-based automation tool designed to simulate infrastructure provisioning and service configuration\[cite: 9]. \[cite\_start]This is the foundation (skeleton) for future integration with AWS and Terraform.
+A modular Python-based automation tool designed to simulate infrastructure provisioning and service configuration\. \This is the foundation (skeleton) for future integration with AWS and Terraform.
 
 
 
 \## Objectives
 
-\* Accept and validate user inputs for virtual machine definitions\[cite: 10].
+\* Accept and validate user inputs for virtual machine definitions\.
 
-\* Utilize modular Python classes for machine representation\[cite: 11].
+\* Utilize modular Python classes for machine representation\.
 
-\* Automate service installation using Bash scripts\[cite: 12].
+\* Automate service installation using Bash scripts\.
 
-\* Implement robust logging and error handling\[cite: 13].
+\* Implement robust logging and error handling\.
 
 
 
