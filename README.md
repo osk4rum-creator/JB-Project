@@ -18,15 +18,3 @@ A modular Python-based automation tool designed to simulate infrastructure provi
 
 \* Implement robust logging and error handling\.
 
-
-
-\## Setup \& Execution
-
-1\. \*\*Environment\*\*: Set up a Python virtual environment:
-
-&#x20;  ```bash
-
-&#x20;  python -m venv venv
-
-&#x20;  source venv/bin/activate  # Or .\\venv\\Scripts\\activate on Windows
-
