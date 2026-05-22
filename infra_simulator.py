@@ -66,7 +66,7 @@ def main():
             val = VMConfig(**vm_data)
             new_machine = Machine(**val.model_dump())  # Modern Pydantic V2 conversion
             machines.append(new_machine.to_dict())     # Using the machine's native dict converter
-            logger.info(f"Added: {name}"))
+            logger.info(f"Added: {name}")
         except ValidationError as e:
             print(f"Invalid input: {e.errors()[0]['msg']}")
 
