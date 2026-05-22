@@ -62,7 +62,7 @@ def main():
             "cpu": input("CPU (e.g. 2vCPU): ").strip(),
             "ram": input("RAM (e.g. 4GB): ").strip()
         }
-    try:
+        try:
             val = VMConfig(**vm_data)
             new_machine = Machine(**val.model_dump())  # Modern Pydantic V2 conversion
             machines.append(new_machine.to_dict())     # Using the machine's native dict converter
