@@ -64,8 +64,8 @@ def main():
         }
         try:
             val = VMConfig(**vm_data)
-            new_machine = Machine(**val.dict())
-            machines.append(new_machine.to_dict())
+            new_machine = Machine(**val.model_dump())
+            machines.append(new_machine.model_dump())
             logger.info(f"Added: {name}")
         except ValidationError as e:
             print(f"Invalid input: {e.errors()[0]['msg']}")
